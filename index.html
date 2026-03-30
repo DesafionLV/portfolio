@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aliyar Janabayev | Full Stack Developer & AI Automation Engineer</title>
+    <meta
+      name="description"
+      content="Портфолио Full Stack Developer и AI Automation Engineer: web development, AI automation, бизнес-автоматизация, MVP и цифровые продукты."
+    />
+    <meta
+      name="keywords"
+      content="Full Stack Developer, AI Automation, Web Development, Business Automation, React, Next.js, Node.js, Python, OpenAI"
+    />
+    <meta name="theme-color" content="#06121d" />
+    <meta property="og:title" content="Aliyar Janabayev | Full Stack Developer & AI Automation Engineer" />
+    <meta
+      property="og:description"
+      content="Разработка сайтов, приложений и AI-автоматизаций для бизнеса, стартапов и цифровых продуктов."
+    />
+    <meta property="og:type" content="website" />
+    <script>
+      (() => {
+        const savedTheme = localStorage.getItem("theme");
+        const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        const theme = savedTheme ?? (prefersDark ? "dark" : "light");
+        document.documentElement.classList.toggle("dark", theme === "dark");
+      })();
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
