@@ -13,7 +13,7 @@ export function Footer() {
             <span className="text-foreground">.tech</span>
           </div>
           <p className="mt-4 max-w-md text-sm leading-7 text-muted-foreground">
-            Портфолио full-stack разработчика, AI automation engineer и startup builder,
+            Портфолио15635 full-stack разработчика, AI automation engineer и startup builder,
             который соединяет разработку, автоматизацию и продуктовый подход.
           </p>
         </div>
